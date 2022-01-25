@@ -1,18 +1,18 @@
 #--------------------------------------GRUPO 027----------------------------------------------
-#							    - Joao Tavares  86443
-#						     	- Pedro Antunes 86493
-#						     	- Rui Matos     79100
+#				- Joao Tavares  86443
+#				- Pedro Antunes 86493
+#				- Rui Matos     79100
 #---------------------------------------------------------------------------------------------
 
 - O ficheiro global_functions.py tem de estar na mesma diretoria de cada um dos outros ficheiros
 
-- Não conseguimos implementar:
+- Future Work: 
 		
-		a morte dos processos zombie resultantes da morte de um filho fork
+		implementar a morte dos processos zombie resultantes da morte de um filho fork
 
-		algumas verificações de erros às chamadas sistema
+		implementar algumas verificações de erros às chamadas sistema
 
-		a confirmação de um BS com o CS de que esse BS se desligou
+		implementar a confirmação de um BS com o CS de que esse BS se desligou
 
 
 
