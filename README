@@ -1,0 +1,56 @@
+#--------------------------------------GRUPO 027----------------------------------------------
+#							    - Joao Tavares  86443
+#						     	- Pedro Antunes 86493
+#						     	- Rui Matos     79100
+#---------------------------------------------------------------------------------------------
+
+- O ficheiro global_functions.py tem de estar na mesma diretoria de cada um dos outros ficheiros
+
+- Não conseguimos implementar:
+		
+		a morte dos processos zombie resultantes da morte de um filho fork
+
+		algumas verificações de erros às chamadas sistema
+
+		a confirmação de um BS com o CS de que esse BS se desligou
+
+
+
+
+
+#---------------------------------------------------------------------------------------------
+                                     CENTRAL SERVER
+                                     --------------
+                                     
+ to run:
+ 
+ $python2 cs.py [-p CSport]
+#---------------------------------------------------------------------------------------------
+
+
+
+
+
+#---------------------------------------------------------------------------------------------
+                                     BACKUP SERVER
+                                     ------------- 
+                                                                         
+ to run:
+ 
+ $python2 bs.py [-b BSport] [-n CSname] [-p CSport]
+#---------------------------------------------------------------------------------------------
+
+
+
+
+
+#---------------------------------------------------------------------------------------------
+                                         USER
+                                         ----
+                                                                              
+ to run:
+ 
+ $python2 user.py [-n CSname] [-p CSport]
+#---------------------------------------------------------------------------------------------
+
+
